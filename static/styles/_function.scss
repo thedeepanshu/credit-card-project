@@ -1,0 +1,20 @@
+@mixin sizing($width, $height){
+    width: $width;
+    height: $height;
+}
+
+@mixin  minSizing($width, $height) {
+    min-width: $width;
+    min-height: $height;
+}
+
+@mixin  maxSizing($width, $height) {
+    max-width: $width;
+    max-height: $height;
+}
+
+@mixin flexBox($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
